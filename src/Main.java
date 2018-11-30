@@ -20,6 +20,10 @@ public class Main {
         System.out.println("Человек по имени " + name +" живет в городе " + city +"." +
         "\nЭтому человеку " + Age +  " лет и любит он заниматься " + " hobby.") ;
 
+        //Третий вариант
+        System.out.println("\n//Третий вариант");
+        System.out.printf("%-7s - %s%n%-7s - %s%n%-7s - %s%n%-7s - %s%n",name , "Имя" , city , "Город" , Age , "Город" , hobby , "Хобби");
+
 
 
     }
